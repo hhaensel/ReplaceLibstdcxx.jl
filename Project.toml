@@ -1,0 +1,5 @@
+name = "ReplaceLibstdcxx"
+uuid = "888ffc4c-e7a9-4266-b690-ff1da87a7386"
+authors = ["Helmut Hänsel <helmut.haensel@gmx.de>"]
+version = "0.1.0"
+

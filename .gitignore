@@ -1,0 +1,8 @@
+docs/build
+docs/Manifest.toml
+.DS_Store
+.tags
+.DS_Store
+.vscode
+test/build
+Manifest.toml
