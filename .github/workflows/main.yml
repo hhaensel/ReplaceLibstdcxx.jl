@@ -1,9 +1,0 @@
-- name: Register Julia Package
-  # You may pin to the exact commit or the version.
-  # uses: julia-actions/RegisterAction@ab5104981076ff209aa3e841d557a723e259ab2c
-  uses: julia-actions/RegisterAction@v0.3.1
-  with:
-    # GitHub API token
-    token: 
-    # Registrator bot username
-    registrator: # optional, default is JuliaRegistrator
