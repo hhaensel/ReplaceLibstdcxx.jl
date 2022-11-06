@@ -2,16 +2,18 @@
 
 Package to simplify the replacement of Julia's `libstdc++.so`.
 
+Note: there are two PRs ([JuliaLang/julia#46976](https://github.com/JuliaLang/julia/pull/46976) and [JuliaLang/julia#45582](https://github.com/JuliaLang/julia/pull/45582)) for Julia 1.9 around which will probably be also backported to 1.6 and 1.8). I therefore decided not to register this package with the General Registry. It will stay here, nevertheless, in order to help people having similar trouble or workinng with an older Julia version.
+
 
 ## Installation
 
 ```julia
 using Pkg
-Pkg.add("ReplaceLibstdcxx")
+Pkg.add("https://github.com/hhaensel/ReplaceLibstdcxx.jl.git")
 ```
 or
 ```julia
-]add ReplaceLibstdcxx
+]add https://github.com/hhaensel/ReplaceLibstdcxx.jl.git
 ```
 
 
